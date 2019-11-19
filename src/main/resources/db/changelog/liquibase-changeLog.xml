@@ -22,5 +22,5 @@
     </createTable>
     </changeSet>
 	
-     
+     <include file="classpath:db/changelog/jp.sql" />
 </databaseChangeLog>
