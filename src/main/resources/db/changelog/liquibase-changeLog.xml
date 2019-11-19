@@ -16,19 +16,13 @@
     <column name="name" type="varchar(255)">
       <constraints nullable="false" unique="true"/>
     </column>
-    <column name="author" type="int">
+    <column name="author" type="varchar(50)">
       <constraints nullable="false"/>
     </column>
     </createTable>
     </changeSet>
 	
-	<changeSet id="222" author="JP">
-	  <insert tableName="postgres.books">
-            <column name="id" value="1"/>
-            <column name="name" value="DevOps book"/>
-            <column name="author" value="JayP"/>
-        </insert> 
-	</changeSet>
+	<include file="src/main/resources/db/changelog/jp.sql" />
   
      
 </databaseChangeLog>
