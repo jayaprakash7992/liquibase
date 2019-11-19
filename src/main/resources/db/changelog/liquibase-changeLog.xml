@@ -23,7 +23,7 @@
     </changeSet>
 	
 	<changeSet id="222" author="JP">
-	  <insert tableName="books">
+	  <insert tableName="postgres.books">
             <column name="id" value="1"/>
             <column name="name" value="DevOps book"/>
             <column name="author" value="JayP"/>
