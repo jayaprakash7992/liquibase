@@ -22,7 +22,7 @@
     </createTable>
     </changeSet>
 	
-	<include file="jp.sql" />
+	<include file=".\jp.sql" />
   
      
 </databaseChangeLog>
