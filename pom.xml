@@ -53,29 +53,13 @@
 			</plugin>
 		</plugins>
 	</build>
-<!--
-	<distributionManagement>
-		
-		<repository>
-			<id>internal.repo</id>
-			<name>MyCo Internal Repository</name>
-			<url>http://52.90.38.217:8081/nexus/content/repositories/releases/</url>
-		</repository> 
-		
-		<repository>
-			<id>internal.repo</id>
-			<name>MyCo Internal Repository</name>
-			<url>http://localhost:8082/artifactory/example-repo-local//</url>
-		</repository> 
-		
-  </distributionManagement>
--->
-<distributionManagement>
-    <repository>
-        <id>snapshots</id>
-        <name>CHNMCT256558L-snapshots</name>
-        <url>http://localhost:8082/artifactory/libs-snapshot</url>
-    </repository>
 
+	<distributionManagement>
+		<repository>
+			<id>snapshots</id>
+			<name>CHNMCT256558L-snapshots</name>
+			<url>http://localhost:8082/artifactory/libs-snapshot</url>
+		</repository>
+  </distributionManagement>
 
 </project>
