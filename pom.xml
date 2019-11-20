@@ -71,12 +71,12 @@
   </distributionManagement>
 -->
 <distributionManagement>
-    <snapshotRepository>
+    <repository>
         <id>snapshots</id>
         <name>CHNMCT256558L-snapshots</name>
         <url>http://localhost:8082/artifactory/libs-snapshot</url>
     </snapshotRepository>
-</distributionManagement>
+</repository>
 
 
 </project>
