@@ -28,6 +28,12 @@ pipeline {
                 sh 'java -jar -Dspring.profiles.active=sys target/liquibase-1.1.4-SNAPSHOT.jar' 
             }
         }
+        
+        stage ('Release') {
+            steps {
+                sh 'mvn deploy -Dversion=1.1.4' 
+            }
+        }
        
     }
 }
