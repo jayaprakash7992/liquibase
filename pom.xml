@@ -53,13 +53,12 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>CHNMCT256558L-releases</name>
-        <url>http://localhost:8082/artifactory/libs-release</url>
-    </repository>
+    		<repository>
+        		<id>central</id>
+        		<name>CHNMCT256558L-releases</name>
+        		<url>http://localhost:8082/artifactory/libs-release</url>
+    		</repository>
 	</distributionManagement>
 
 </project>
