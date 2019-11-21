@@ -30,9 +30,9 @@ pipeline {
             }
         }
         
-        stage ('Release') {
+        stage ('upload') {
             steps {
-                sh 'mvn deploy -Dversion=1.1.4' 
+                sh 'curl -u admin:password ./**/target/liquibase* "http://localhost:8082/artifactory/libs-release-local/"' 
             }
         }
        
