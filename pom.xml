@@ -55,11 +55,11 @@
 	</build>
 
 	<distributionManagement>
-		<repository>
-			<id>snapshots</id>
-			<name>CHNMCT256558L-snapshots</name>
-			<url>http://localhost:8082/artifactory/libs-snapshot</url>
-		</repository>
-  </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>CHNMCT256558L-releases</name>
+        <url>http://localhost:8082/artifactory/libs-release</url>
+    </repository>
+	</distributionManagement>
 
 </project>
